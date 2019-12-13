@@ -1,1 +1,24 @@
 // Mixins Here
+
+//nav
+.nav-mix() {
+    display: flex;
+    justify-content: center;
+}
+
+.big-mix(){
+    display: flex;
+    flex-direction: column;
+}
+//button mix
+.button-content (@ebony-clay, @wild-sand){
+    display: block;
+    background-color: @ebony-clay;
+    text-align: center;
+    padding-top: 2%;
+    width: 27%;
+    height: 36px;
+    font-size: 1.7rem;
+    border-radius: 7px;
+    color:@wild-sand;
+}
